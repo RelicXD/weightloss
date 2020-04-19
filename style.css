@@ -1,9 +1,7 @@
 .title2 {
     text-align: center;
-    top: 7%;
-    left: 35.5%;
-    position: absolute;
     font-weight: 800;
+    margin: 0 0;
     color: rgb(216, 197, 250);
     font-family: Candara;
     background: none;
@@ -12,9 +10,6 @@
 
 .titleComment {
     text-align: center;
-    top: 12.5%;
-    left: 41.5%;
-    position: absolute;
     font-weight: 750;
     font-family: monospace;
     font-size: 20px;
@@ -134,5 +129,15 @@ label {
     display: none;
 }
 
+.banner {
+    text-align: center;
+}
 
-//add banner between title + title2
+.img4 {
+    height: 170px;
+    width: 1280px;
+    margin: 875px auto 0 auto;
+    display: inline;
+    padding: 0 0px;
+    opacity: 90%;
+}
