@@ -67,7 +67,7 @@ button {
     padding: 20px 20px;
     border: darkred solid 3px;
     cursor: pointer;
-    top: 58%;
+    top: 77.5%;
     left: 46.5%;
     position: absolute;
     border-radius: 70px;
@@ -84,7 +84,7 @@ label {
     height: 400px;
     padding: 50px;
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: lightsteelblue;
@@ -136,7 +136,7 @@ label {
 .img4 {
     height: 170px;
     width: 1280px;
-    margin: 875px auto 0 auto;
+    margin: 35px auto 0 auto;
     display: inline;
     padding: 0 0px;
     opacity: 90%;
