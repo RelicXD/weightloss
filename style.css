@@ -1,0 +1,136 @@
+.title2 {
+    text-align: center;
+    top: 21%;
+    left: 35.5%;
+    position: absolute;
+    font-weight: 800;
+    color: rgb(216, 197, 250);
+    font-family: Candara;
+    background: none;
+    font-size: 38px;
+}
+
+.titleComment {
+    text-align: center;
+    top: 25.5%;
+    left: 41.5%;
+    position: absolute;
+    font-weight: 750;
+    font-family: monospace;
+    font-size: 20px;
+    color: rgb(156, 110, 242);
+    font-style: italic;
+    background: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.genderLabel {
+    margin: 0 auto;
+}
+
+.viewMyPlan {
+    margin: 0 auto;
+    color: indianred;
+}
+
+* {
+    background-color: rgb(6, 89, 165);
+    font-family: sans-serif;
+}
+
+input {
+    background-color: rgb(216, 197, 250);
+    font-size: 20px;
+    border: darkslateblue solid 3px;
+    padding: 5px 5px;
+    color: steelblue;
+    border-radius: 12px;
+}
+
+option {
+    background-color: rgb(216, 197, 250);
+    padding: 5px 5px;
+    border-radius: 12px;
+}
+
+select {
+    background-color: rgb(216, 197, 250);
+    font-size: 20px;
+    padding: 5px 5px;
+    color: steelblue;
+    border: 3px solid darkslateblue;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+button {
+    background-color: mistyrose;
+    font-size: 20px;
+    padding: 20px 20px;
+    border: darkred solid 3px;
+    cursor: pointer;
+    top: 58%;
+    left: 46.5%;
+    position: absolute;
+    border-radius: 70px;
+    font-weight: 600;
+}
+
+label {
+    color: midnightblue;
+    background-color: lightsteelblue;
+}
+
+.box {
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: lightsteelblue;
+    text-align: center;
+    border: 5px solid darkred;
+    border-radius: 35px;
+}
+
+.title {
+    text-align: center;
+    color: mistyrose;
+    font-size: 70px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin: 15px 0;
+}
+
+.img1 {
+    height: 175px;
+    width: 1280px;
+    margin: 0 0 0 10px;
+    display: inline;
+    padding: 0 0px;
+    opacity: 75%;
+}
+
+.img2 {
+    height: 175px;
+    width: 1242px;
+    display: inline;
+    margin: 0 0;
+    padding: 0 0;
+    opacity: 75%;
+}
+
+.img3 {
+    margin: 635px 0 0 0;
+    width: 2542px;
+    height: 315px;
+    opacity: 75%;
+    display: none;
+}
+
+
+//add banner between title + title2

@@ -1,0 +1,35 @@
+.title {
+    text-align: center;
+    font-size: 60px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    margin: 84px auto;
+}
+
+.main {
+    text-align: center;
+    font-size: 40px;
+}
+
+.imgHeader {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+ 
+li {
+    text-align: center;
+    font-size: 30px;
+    font-family: monospace;
+ }
+
+* {
+    font-family: sans-serif;
+}
+
+div {
+    text-align: center;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personalized Weight Loss</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1 class="title">Personalized Weight Loss</h1>
+    <img class="img1" src="fruits and vegetables banner.png" />
+    <img class="img2" src="fruits and vegetables banner.png" />
+    <h1 class="title2">Your Very Own Personalized Weight Loss Tool!</h1>
+    <p class="titleComment">No More Paying for Plans That Don't Help!</p>
+    <div>
+        <h2>
+            <form class="box">
+                <label class="genderLabel">Gender: </label>
+                <select id="gender" class="genderList">
+                    <option>Please Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <br />
+                <br />
+                <label class="height">Height in Feet: </label>
+                <input type="number" placeholder="5" id="heightInputFeet" />
+                <br />
+                <br />
+                <label class="height">Height in Inches: </label>
+                <input type="number" placeholder="9" id="heightInputInches" />
+                <br />
+                <br />
+                <label class="weight">Weight in Pounds: </label>
+                <input type="number" placeholder="190" id="weightInput" />
+        </h2>
+        <h2>
+            <button class="viewMyPlan" onclick="checkPlan()">View My Plan!</button>
+        </h2>
+        </form>
+        <img class="img3" src="sunrise_ocean.png" />
+        <script>
+            function checkPlan() {
+                var userWeight = document.getElementById("weightInput").value;  //calculate bmi, link to one of {four} plans (thin, normal, overweight, obese)
+                var userHeightFeet = document.getElementById("heightInputFeet").value;
+                var userHeightInches = document.getElementById("heightInputInches").value;
+                var userHeightPre = userHeightFeet * 12;
+                var userHeightFinal = +userHeightPre + +userHeightInches;
+                var userHeightBMI = Math.pow(+userHeightFinal, 2);
+                var BMIRight = +userWeight / +userHeightBMI;
+                var BMI = 703 * +BMIRight; console.log(BMI);
+                var ddl = document.getElementById("gender");
+                var userGender = ddl.options[ddl.selectedIndex].value;
+                if (BMI < 18.5) {
+                    window.open("underweight.html"); // underweight
+                    return false;
+                }
+                if (BMI >= 18.5 && BMI <= 24.9 && userGender == "male") {
+                    window.open("normal.html"); // normal
+                    return false;
+                }
+                if (BMI >= 25 && BMI <= 29.9) {
+                    window.open("overweight.html"); //overweight
+                    return false;
+                }
+                if (BMI >= 30) {
+                    window.open("https://www.walmart.com/"); //obese
+                    return false;
+                }
+            }
+        </script>
+    </div>
+</body>
+</html>
