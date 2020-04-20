@@ -136,10 +136,12 @@ label {
 .img4 {
     height: 170px;
     width: 1280px;
-    margin: 35px auto 0 auto;
+    top: 20%;
+    right: 25%;
     display: inline;
     padding: 0 0px;
     opacity: 90%;
+    position: absolute;
 }
 
 .button1 {
