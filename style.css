@@ -5,14 +5,14 @@
     color: rgb(216, 197, 250);
     font-family: Candara;
     background: none;
-    font-size: 1.5vw;
+    font-size: 2vw;
 }
 
 .titleComment {
     text-align: center;
     font-weight: 750;
     font-family: monospace;
-    font-size: 0.85vw;
+    font-size: 1vw;
     color: rgb(156, 110, 242);
     font-style: italic;
     background: none;
@@ -63,12 +63,12 @@ select {
 
 button {
     background-color: mistyrose;
-    font-size: 0.8vw;
+    font-size: 2vw;
     padding: 1% 1%;
     border: darkred solid 3px;
     cursor: pointer;
-    top: 77.5%;
-    left: 46.5%;
+    top: 80%;
+    left: 42%;
     position: absolute;
     border-radius: 70px;
     font-weight: 600;
@@ -80,8 +80,8 @@ label {
 }
 
 .box {
-    width: 22%;
-    height: 33%;
+    width: 40%;
+    height: 47%;
     padding: 2.5%;
     position: absolute;
     top: 70%;
@@ -96,7 +96,7 @@ label {
 .title {
     text-align: center;
     color: mistyrose;
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin: 0.7% 0;
 }
@@ -136,7 +136,7 @@ label {
 .img4 {
     height: 14%;
     width: 50%;
-    top: 20%;
+    top: 22.7%;
     right: 25%;
     display: inline;
     padding: 0 0px;
@@ -150,39 +150,39 @@ label {
 }
 
 .heightLabel {
-    font-size: 1vw;
+    font-size: 2vw;
     background: none;
     display: inline;
 }
 
 .weightLabel {
-    font-size: 1vw;
+    font-size: 2vw;
     background: none;
     display: inline;
 }
 
 #heightInputFeet {
-    font-size: 0.8vw;
+    font-size: 1.5vw;
     display: inline;
 }
 
 #heightInputInches {
-    font-size: 0.8vw;
+    font-size: 1.5vw;
     display: inline;
 }
 
 #weightInput {
-    font-size: 0.8vw;
+    font-size: 1.5vw;
     display: inline;
 }
 
 #gender {
-    font-size: 0.8vw;
+    font-size: 1.5vw;
     display: inline;
 }
 
 .genderLabel {
-    font-size: 1vw;
+    font-size: 2vw;
     background: none;
     display: inline;
 }
