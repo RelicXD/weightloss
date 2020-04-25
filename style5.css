@@ -1,0 +1,19 @@
+.title {
+    text-align: center;
+    font-size: 60px;
+}
+
+.main {
+    text-align: center;
+    font-size: 40px;
+}
+
+img {
+    width: 30vw;
+    height: 27vw;
+}
+
+div {
+    text-align: center;
+    background: none;
+}
