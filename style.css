@@ -13,7 +13,7 @@
     font-weight: 750;
     font-family: monospace;
     font-size: 1vw;
-    color: rgb(156, 110, 242);
+    color: darkred;
     font-style: italic;
     background: none;
 }
@@ -32,7 +32,7 @@ h2 {
 }
 
 * {
-    background-color: rgb(6, 89, 165);
+    background-color: cornflowerblue;
     font-family: sans-serif;
 }
 
@@ -134,15 +134,29 @@ label {
 }
 
 .img4 {
-    height: 14%;
-    width: 50%;
+    height: 11vw;
+    width: 50vw;
     top: 22.7%;
-    right: 25%;
+    right: 0%;
     display: inline;
     padding: 0 0px;
-    opacity: 90%;
+    opacity: 70%;
     position: absolute;
     background-position: center;
+    background: none;
+}
+
+.img5 {
+    height: 11vw;
+    width: 50vw;
+    top: 22.7%;
+    right: 50%;
+    display: inline;
+    padding: 0 0px;
+    opacity: 70%;
+    position: absolute;
+    background-position: center;
+    background: none;
 }
 
 .button1 {
